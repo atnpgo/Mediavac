@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+}
+form > input {
+  flex-grow: 1;
+}
+
+iframe {
+  flex-grow: 1;
+  border: 0;
+}
+
+/*# sourceMappingURL=app.css.map */
